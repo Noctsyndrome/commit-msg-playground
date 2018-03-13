@@ -41,7 +41,20 @@ module.exports = {
     }
   ],
 
-  scopes: [],
+  scopes: [
+    {name: 'modeler'},
+    {name: 'draw'},
+    {name: 'analyst'},
+  ],
+
+//   scopeOverrides: {
+//     fix: [
+//       {name: 'merge'},
+//       {name: 'style'},
+//       {name: 'e2eTest'},
+//       {name: 'unitTest'},
+//     ],
+//   },
 
   allowCustomScopes: true,
   allowBreakingChanges: ["feat", "fix"]
