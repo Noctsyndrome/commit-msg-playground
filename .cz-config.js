@@ -21,7 +21,7 @@ module.exports = {
         },
         {
             value: 'i18n',
-            name: '🌐  i18n:     Text label translation only changes'
+            name: '🌐  i18n:     Text label translation changes only'
         },
         {
             value: 'deps',
@@ -29,11 +29,11 @@ module.exports = {
         },
         {
             value: 'style',
-            name: '🎨  style:    Code Style, Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)'
+            name: '🎨  style:    Code style (white-space, formatting, missing semi-colons, etc) changes only'
         },
         {
             value: 'docs',
-            name: '📝  docs:     Documentation only changes'
+            name: '📝  docs:     Documentation changes only'
         },
         {
             value: 'test',
